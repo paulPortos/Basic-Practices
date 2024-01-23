@@ -45,18 +45,18 @@ public class OnlineSurveySystem {
         //This gets the users input and store it in the "user_input" variable NOTE: THIS ONLY ACCEPT STRINGS
         user_input = input.nextLine();
 
-        while (loop<=5) {
-            switch (user_input.toLowerCase()) {
-            case "/1":
-                System.exit(0);
-                break;
-            case "/2":
-                reset_points();
-                on_enter();
-                break;
-            case "start":
-                runned = true;
-                break;
+        while (loop<=5) { 
+            switch (user_input.toLowerCase()) { 
+            case "/1": 
+                System.exit(0); 
+                break; 
+            case "/2": 
+                reset_points(); 
+                on_enter(); 
+                break; 
+            case "start": 
+                runned = true; 
+                break; 
             case "1":
                 add_elements(loop, 3);
                 runned = true;

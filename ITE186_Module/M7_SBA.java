@@ -34,6 +34,5 @@ public class M7_SBA {
         //Then we will now display the sum of the array and the average of the array
         System.out.println("Sum = " + total);
         System.out.println("Average = " + avg);
-
     }
 }
