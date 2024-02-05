@@ -122,5 +122,4 @@ public class OnlineSurveySystem {
             score[i] = 0;
             }
     }
-
 }

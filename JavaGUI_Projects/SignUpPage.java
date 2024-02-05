@@ -3,15 +3,11 @@ package JavaGUI_Projects;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
-import java.awt.GridLayout;
-
 import javax.swing.BorderFactory;
-import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
-import javax.swing.SpringLayout;
 
 public class SignUpPage {
     //Create a sign up page constructor 
@@ -41,8 +37,6 @@ public class SignUpPage {
         frame.setVisible(true);
         frame.setSize(450, 550);
     }
-
-
 
     public static void main(String[] args) {
         new SignUpPage();
