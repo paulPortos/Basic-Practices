@@ -98,25 +98,25 @@ public class OnlineSurveySystem {
         System.out.println(survey_results());
         System.exit(0);
     }
-    //This method adds the total points of each choices and interprets its total
+    //This method adds the balance points of each choices and interprets its balance
     private static String survey_results(){
-        int total = 0;
+        int balance = 0;
         for(int i = 0; i < score.length; i++){
-            total += score[i];
+            balance += score[i];
         }
-        if (total <= 3){
+        if (balance <= 3){
             return "Sorry to hear that you are unsatisfied with the schools performance";
-        } else if(total >= 6 && total < 9){
+        } else if(balance >= 6 && balance < 9){
             return "We are glad that you are satisfied with the performance of the school";
         } else{
             return "We are happy to hear that you are over satisfied with the schools performance";
         }
     }
-    //This adds points to the total variable, which will be later interpreted after the survey
+    //This adds points to the balance variable, which will be later interpreted after the survey
     private static void add_elements(int index, int points){
         score[index] = points;
     }
-    //This resets the total overall points to 0
+    //This resets the balance overall points to 0
     static void reset_points(){
         for(int i = 0; i < score.length; i++){
             score[i] = 0;

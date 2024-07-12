@@ -21,7 +21,7 @@ public class StoreInventory {
     //Change the element of the array based on the no data value
 
     public static void employ(){
-        int x = 0;
+        //int x = 0;
         for(String i: employee){
             if (i.equals("No data") || i.equals(null)){
                 

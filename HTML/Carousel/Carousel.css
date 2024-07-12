@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.image-container {
+    width: 350px;
+    height: 390px;
+    border: 0;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    margin: 0 auto;
+    max-width: 48rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+.image-list img {
+    width: 350px;
+    height: 350px;
+}
+.image-container .image-list {
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    gap: 10px;
+}

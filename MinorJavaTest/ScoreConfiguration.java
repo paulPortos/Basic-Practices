@@ -13,7 +13,7 @@ public class ScoreConfiguration {
         //Display Array Elements
         display_array(score);
         //Display Array Summation of elements
-        System.out.println("Total: " + summated_array(score));
+        System.out.println("balance: " + summated_array(score));
     }
     //This method resets the whole array
     static void reset_array(){
@@ -29,11 +29,11 @@ public class ScoreConfiguration {
     }
     //This method sums the element of the array
     static int summated_array(int arrayName[]){
-        int total = 0;
+        int balance = 0;
         for(int i = 0; i < arrayName.length; i++){
-            total += arrayName[i];
+            balance += arrayName[i];
         }
-        return total;
+        return balance;
     }
 }
 

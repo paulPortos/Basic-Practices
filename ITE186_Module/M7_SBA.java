@@ -23,16 +23,16 @@ public class M7_SBA {
     public static void exercise2(){
         //First we will create an array called numbers and add 23, 6, 47, 35, 2, 14
         int[] numbers = {23, 6, 47, 35, 2, 14};
-        //Lets create an int name total which will store the sum of each element
-        int total = 0;
+        //Lets create an int name balance which will store the sum of each element
+        int balance = 0;
         //Now we will sum all of these array in a loop
         for(int i = 0; i < numbers.length; i++){
-            total += numbers[i];
+            balance += numbers[i];
         }
         //Now we will create an average equation and store it to our variable named avg
-        int avg = total / numbers.length;
+        int avg = balance / numbers.length;
         //Then we will now display the sum of the array and the average of the array
-        System.out.println("Sum = " + total);
+        System.out.println("Sum = " + balance);
         System.out.println("Average = " + avg);
     }
 }
